@@ -4,6 +4,7 @@ public abstract class AbstractGame
 {
     protected AbstractCharacter? player1;
     protected AbstractCharacter? player2;
+    protected int firstStep;
 
     // Выбор класса игроков (ввод с клавиатуры)
     public abstract void SelectPlayers();
